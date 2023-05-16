@@ -18,7 +18,7 @@ export const techs = [
   },
   {
     id: "css",
-    name: "CSS3",
+    name: "CSS",
     description:
       "Crio estilos visuais atraentes e responsivos para páginas web usando CSS3, incluindo animações e transições.",
     icon: <DiCss3 />,
