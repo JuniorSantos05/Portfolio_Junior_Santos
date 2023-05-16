@@ -1,0 +1,81 @@
+@use "../../styles/variables"
+
+.technologies-container
+    margin-bottom: 1rem
+
+    .technologies-grid
+        display: flex
+        max-width: 60vw
+        overflow-x: auto
+
+        gap: 1.5rem
+
+    .technologies-grid::-webkit-scrollbar 
+        width: 5px
+        height: 8px
+
+    .technologies-grid::-webkit-scrollbar-thumb 
+        background-color: variables.$text-color
+        border-radius: 5px
+
+    .technologies-grid::-webkit-scrollbar-thumb:hover
+        background: variables.$text-color-secondary   
+        
+
+    .technology-card
+        display: flex
+        flex-direction: column
+        align-items: center 
+        width: 25%
+        gap: 1rem
+        padding: 1rem
+        border: 1px solid #333
+        border-radius: variables.$card-border-radius
+
+    h3
+        color: variables.$text-color
+        margin-bottom: 1rem
+
+    svg
+        font-size: 6rem
+
+    #html
+        svg
+            color: #E44D26
+
+    #css
+        svg
+            color: #264de4
+
+    #js
+        svg
+            color: #F0DB4F 
+
+    #node
+        svg
+            color: #3c873a
+
+    #sass
+        svg
+            color: #cc6699 
+
+    #react
+        svg
+            color: #61DBFB
+
+    #ts
+        svg
+            color: #007acc 
+
+    #postgresql
+        svg
+            color: #0064a5
+
+    #python
+        svg
+            color: #FFD43B
+
+    #django
+        svg
+            color: #092E20
+
