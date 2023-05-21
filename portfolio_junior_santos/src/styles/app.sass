@@ -1,26 +1,21 @@
-@use "../styles/variables"
+@use "./variables"
 
 #portifolio
     display: flex
     flex-direction: column
     padding: 3rem
     gap: 3rem
+    max-width: 900px
+    margin: 0 auto
 
     h1
         width: 100%
         color: variables.$text-color
-        font-size: 4rem
+        font-size: 2.5rem
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
 
-    .container
-        display: flex
-        flex-wrap: wrap
-        gap: 3rem
-
-        @media (min-width: 950px)
-            flex-wrap: nowrap
 
 
 
