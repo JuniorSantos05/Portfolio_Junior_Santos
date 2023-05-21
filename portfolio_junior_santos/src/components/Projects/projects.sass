@@ -1,0 +1,53 @@
+@use "../../styles/variables"
+@use "../../styles/mixins"
+
+
+.project-container
+    width: 100%
+    display: flex
+    align-items: center
+    gap: 10px
+    color: #fff
+    border-radius: 10px
+    flex-wrap: wrap
+    justify-content: center
+
+    .project-card
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+        width: 45%
+        max-width: 700px
+        min-width: 250px
+        padding: 1rem
+        gap: 20px
+        border: 2px solid #333
+        border-radius: variables.$card-border-radius
+
+        .project-information
+            display: flex
+            flex-direction: column
+            gap: 8px
+
+            h3
+                font-size: 1rem
+
+            span 
+                font-size: 0.75rem
+
+            span > a
+                text-decoration: none 
+                color: variables.$text-color-link
+
+
+        a 
+            padding: 1rem            
+
+            img
+                width: 100%
+                box-shadow: variables.$text-color-link 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px
+
+
+
+
