@@ -12,7 +12,7 @@ const Sidebar = () => {
       <Information />
       <a
         className="btn"
-        href="https://drive.google.com/file/d/1_OS6ZS3KDyNIEWMu-z-CjCTfJQxD7InL/view"
+        href="https://drive.google.com/file/d/1_XvA4Jb-IfR9gWfAQ3_sfGgJaOkE7Y51/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
